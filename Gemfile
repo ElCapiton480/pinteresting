@@ -8,8 +8,6 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
-
-
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
@@ -19,8 +17,6 @@ end
 group :production do
 	gem'pg'
 	gem 'rails_12factor'
-end
-
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
